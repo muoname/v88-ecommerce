@@ -1,0 +1,21 @@
+.pagination{
+    gap: 8px;
+    position: absolute;
+    right: 60px;
+    top: 840px;
+
+    input{
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: none;
+        background: #2A2D3E;
+        border: 1px solid #2A2D3E;
+        font-weight: bold;
+        color: #B0B0B0;
+
+        &:hover{
+            color: #9C89FF;
+            border: 1px solid #9C89FF;
+        }
+    }
+}
